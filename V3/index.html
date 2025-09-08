@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <!-- section : menu -->
+    <header id="menu">
+        <div class="logo-text">
+            <img class="logo"  src="rsc/icon-black.jpeg" type="image/jpeg" alt="Logo de Rocher Ingénierie et Construction">
+            <p id="ric">Rocher Ingénierie et Construction</p>
+        </div>
+        <div class="navbar">
+            <a href="#home" class="navbar-items navbar-items-h">Acceuil</a>
+            <a href="#services" class="navbar-items navbar-items-h">Services</a>
+            <a href="#sectors" class="navbar-items navbar-items-h">Secteurs</a>
+            <a href="#making" class="navbar-items navbar-items-h">Nos Réalisations</a>
+            <a href="#vision" class="navbar-items navbar-items-h">Notre Vision</a>
+            <a href="#apropos" class="navbar-items navbar-items-h">À Propos</a>
+            <a href="#contacts" class="navbar-items nb-button">Contact</a>
+        </div>
+    </header>
+    <!-- section : home -->
+    <section id="home">
+        <div class="land">
+            <img class="land-logo" src="rsc/icon-black.jpeg" type="image/jpeg" alt="logo">
+            <h1 class="land-main-text">Excellence en BTP & Médical</h1>
+            <p class="land-info-text">Votre partenaire de confiance pour des solutions innovantes dans le bâtiment et les équipements médicaux</p>
+            <div class="land-buttons">
+                <a class="services-button land-button" href="#services">Nos Services</a>
+                <a class="contacter-button land-button" href="#contacts">Nous Contacter</a>
+            </div>
+        </div>
+    </section>
+    <!--section : services  -->
+    <section id="services">
+        <h2 class="section-title">Nos Service</h2>
+        <p class="section-description">Des solutions complètes et sur mesure pour répondre à tous vos besoins</p>
+        <div class="presentation">
+            <div class="services-construction section-little-container">
+                <p class="tlogo">🏗</p>
+                <p class="section-details">Construction & Rénovation</p>
+                <p class="section-details-explain">Projets de constructions neuve, rénovation aménagement intérieur et exterieur avec des matériaux de qualité.</p>
+                <ul class="service-list">
+                    <li class="service-list">Gros œuvre et second œuvre</li>
+                    <li class="service-list">Électricité</li>
+                    <li class="service-list">Climatisation</li>
+                    <li class="service-list">Coordination de travaux</li>
+                    <li class="service-list">Rénovation</li>
+                    <li class="service-list">Aménagement sur mesure</li>
+                </ul>
+            </div>
+            <div class="services-medical section-little-container">
+                <p class="tlogo">🏥</p>
+                <p class="section-details">Équipements Médicaux</p>
+                <p class="section-details-explain">Fourniture et installation d'équipements médicaux de pointe pour établissements de santé.</p>
+                <ul class="service-list">
+                    <li class="service-list">Matériel de diagnostic</li>
+                    <li class="service-list">Équipements de bloc opératoire</li>
+                    <li class="service-list">Maintenance préventive</li>
+                </ul>
+            </div>
+            <div class="services-expertise section-little-container">
+                <p class="tlogo">💡</p>
+                <p class="section-details ce-section-details">Conseil & Expertise</p>
+                <p class="section-details-explain">Accompagnement personnalisé et expertise technique pour optimiser vos projets.</p>
+                <ul class="service-list">
+                    <li class="service-list">Études de faisabilité</li>
+                    <li class="service-list">Audit technique</li>
+                    <li class="service-list">Suivi de</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- Section : sector -->
+    <section id="sectors">
+        <h2 class="section-title">Nos Secteurs d'Activité</h2>
+        <p class="section-description">Une expertise reconnue dans deux domaines complémentaires</p>
+        <div class="secteurs-presentation">
+            <div class="secteur-batiment secteur-container">
+                <p class="tlogo">🏢</p>
+                <h3 class="section-details btp-section-details">Bâtiment & Travaux Publics</h3>
+                <p class="section-details-explain btp-section-details-explain">Plus de 15 ans d'expérience dans la construction, la rénovation et l'aménagement.
+                    Nous intervenons sur tous types de projets, du résidentiel au tertiaire.</p>
+                <div class="secteur-min-details">
+                    <div class="secteur-min-detail">
+                        <h4 class="secteur-min-detail-text-orange">Résidentiel</h4>
+                        <p class="secteur-min-detail-text-white">Maisons, appartements</p>
+                    </div>
+                    <div class="secteur-min-detail">
+                        <h4 class="secteur-min-detail-text-orange">Tertiaire</h4>
+                        <p class="secteur-min-detail-text-white">Bureaux, commerces</p>
+                    </div>
+                    <div class="secteur-min-detail">
+                        <h4 class="secteur-min-detail-text-orange">Industriel</h4>
+                        <p class="secteur-min-detail-text-white">Usines, entrepôts</p>
+                    </div>
+                    <div class="secteur-min-detail">
+                        <h4 class="secteur-min-detail-text-orange">Public</h4>
+                        <p class="secteur-min-detail-text-white">Écoles, mairie</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="secteur-medical secteur-container">
+                <p class="tlogo">⚕</p>
+                <h3 class="section-details em-section-details">Équipements Médicaux</h3>
+                <p class="section-details-explain em-section-details-explain">Spécialistes en fourniture et maintenance d'équipements médicaux de haute technologi.
+                Partenaire de confiance des professionnels de santé.</p>
+                <div class="secteur-min-details medical-secteur-min-details">
+                    <div class="secteur-min-detail">
+                        <h4 class="secteur-min-detail-text-orange">Hôpitaux</h4>
+                        <p class="secteur-min-detail-text-white">Équipements lourds</p>
+                    </div>
+                    <div class="secteur-min-detail">
+                        <h4 class="secteur-min-detail-text-orange">Cliniques</h4>
+                        <p class="secteur-min-detail-text-white">Matériel spécialisé</p>
+                    </div>
+                    <div class="secteur-min-detail">
+                        <h4 class="secteur-min-detail-text-orange">Cabinets</h4>
+                        <p class="secteur-min-detail-text-white">Équipements de base</p>
+                    </div>
+                    <div class="secteur-min-detail">
+                        <h4 class="secteur-min-detail-text-orange" title="Etablissement d'hébergement pour Personnes Agées dépendantes">EHPAD</h4>
+                        <p class="secteur-min-detail-text-white">Matériel adapté</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section : making -->
+    <section id="making">
+        <h2 class="section-title">Nos Réalisations</h2>
+        <p class="section-description">Découvrez quelques-uns de nos projets les plus marquants dans le BTP et l'équipement médical</p>
+        <div class="making-type">
+            <input id="btn-all" class="making-type-button first-making-type-button" value="Tous" type="button" onclick="switch_making_all()">
+            <input id="btn-btp" class="making-type-button" value="BTP" type="button" onclick="switch_making_btp()">
+            <input id="btn-med" class="making-type-button" value="Médical" type="button" onclick="switch_making_med()">
+        </div>
+        <div class="making-presentation">
+            <div class="mk-section-little-container making-container btp-making-container">
+                <div class="making-bg-container">
+                    <p class="tlogo">🏗</p>
+                    <h3 class="section-details">Centre Commercial Abidjan</h3>
+                    <p class="section-details-explain">Construction complète - 2023</p>
+                </div>
+                <div class="making-explain-container">
+                    <p class="making-explain">Construction d'un centre commercial moderne de 5000m<sup>2</sup> avec espaces commerciaux, parking et aménagements exterieurs.</p>
+                    <div class="making-explain-sub-container">
+                        <p class="making-explain-sub making-explain-sub-o">Gros œuvres</p>
+                        <p class="making-explain-sub making-explain-sub-o">Aménagement</p>
+                    </div>
+                </div>
+            </div>
+            <div class="mk-section-little-container making-container med-making-container">
+                <div class="making-bg-container">
+                    <p class="tlogo">🏥</p>
+                    <h3 class="section-details">Hôpital Universitaire Lomé</h3>
+                    <p class="section-details-explain">Équipement bloc opératoire - 2023</p>
+                </div>
+                <div class="making-explain-container">
+                    <p class="making-explain">Installation complète d'équipements médicaux de pointe pour 3 blocs opératoires avec formation du personnel.</p>
+                    <div class="making-explain-sub-container">
+                        <p class="making-explain-sub making-explain-sub-b">Bloc opératoire</p>
+                        <p class="making-explain-sub making-explain-sub-b">Formation</p>
+                    </div>
+                </div>
+            </div>
+            <div class="mk-section-little-container making-container btp-making-container">
+                <div class="making-bg-container">
+                    <p class="tlogo">🏢</p>
+                    <h3 class="section-details">Immeuble de Bureaux</h3>
+                    <p class="section-details-explain">Rénovation énergétique - 2022</p>
+                </div>
+                <div class="making-explain-container">
+                    <p class="making-explain">Rénovation complète d'un immeuble de bureaux de 8 étages avec mise aux normes énergétiques et modernisations.</p>
+                    <div class="making-explain-sub-container">
+                        <p class="making-explain-sub making-explain-sub-g">Rénovation</p>
+                        <p class="making-explain-sub making-explain-sub-g">Énergie</p>
+                    </div>
+                </div>
+            </div>
+            <div class="mk-section-little-container making-container med-making-container">
+                <div class="making-bg-container">
+                    <p class="tlogo">🔬</p>
+                    <h3 class="section-details">Laboratoire d'Analyse</h3>
+                    <p class="section-details-explain">Équipement complet - 2022</p>
+                </div>
+                <div class="making-explain-container">
+                    <p class="making-explain">Fourniture et installation d'équipements de laboratoire de haute précision avec système de gestion automatisé.</p>
+                    <div class="making-explain-sub-container">
+                        <p class="making-explain-sub making-explain-sub-p">Laboratoire</p>
+                        <p class="making-explain-sub making-explain-sub-p">Automatisation</p>
+                    </div>
+                </div>
+            </div>
+            <div class="mk-section-little-container making-container btp-making-container">
+                <div class="making-bg-container">
+                    <p class="tlogo">🏠</p>
+                    <h3 class="section-details">Résidence Privée</h3>
+                    <p class="section-details-explain">Construction sur mesure - 2023</p>
+                </div>
+                <div class="making-explain-container">
+                    <p class="making-explain">Construction d'une villa moderne de 400<sup>2</sup> avec piscine, jardin paysager et domotique integrée.</p>
+                    <div class="making-explain-sub-container">
+                        <p class="making-explain-sub making-explain-sub-r">Villa</p>
+                        <p class="making-explain-sub making-explain-sub-r">Domotique</p>
+                    </div>
+                </div>
+            </div>
+            <div class="mk-section-little-container making-container med-making-container">
+                <div class="making-bg-container">
+                    <p class="tlogo">🩺</p>
+                    <h3 class="section-details">Clinique Spécialisée</h3>
+                    <p class="section-details-explain">Équipement Imagerie - 2023</p>
+                </div>
+                <div class="making-explain-container">
+                    <p class="making-explain">Installation d'équipements d'imagerie médicaux de dernière génération avec salle blindée et système de réfroidissement.</p>
+                    <div class="making-explain-sub-container">
+                        <p class="making-explain-sub making-explain-sub-c">Imagerie</p>
+                        <p class="making-explain-sub making-explain-sub-c">Installation</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mk-section-little-container making-rate">
+            <div class="making-rate-items">
+                <p class="making-rate-items-txt-o">500+</p>
+                <p class="section-description mk-section-description">Projets Réalisés</p>
+            </div>
+            <div class="making-rate-items">
+                <p class="making-rate-items-txt-o">15+</p>
+                <p class="section-description mk-section-description">Années d'Expérience</p>
+            </div>
+            <div class="making-rate-items">
+                <p class="making-rate-items-txt-o">98%</p>
+                <p class="section-description mk-section-description">Clients Satisfaits</p>
+            </div>
+            <div class="making-rate-items">
+                <p class="making-rate-items-txt-o">24/7</p>
+                <p class="section-description mk-section-description">Support Technique</p>
+            </div>
+        </div>
+    </section>
+    <!-- section : vision -->
+     <section id="vision">
+        <h2 class="section-title">Notre Vision</h2>
+        <p class="section-description">Construire l'avenir avec innovation, durabilité et excellence pour créer un monde meilleur</p>
+        <div class="vision-ctn-top section-little-container">
+            <div class="vision-ctn-top-exp-left">
+                <p class="tlogo">🌟</p>
+                <h3 class="section-details">Être le leader de l'innovation en Afrique de l'Ouest</h3>
+                <p class="section-description vs-section-description">Notre vision est de dévenir la référence incontournable dans le secteur du BTP et de l'équipement médical,
+                en alliant tradition artisanale et technologies de pointe pour répondre aux défis de demain.</p>
+                <p class="section-description vs-section-description">Nous aspirons à tranformer les communautés en créant des infrastructures durables et en équipant les établissements
+                de santé avec les technologies les plus avancées.</p>
+            </div>
+            <div class="vision-ctn-top-exp-right">
+                <p class="ltlogo">🎯</p>
+                <h3 class="little-section-details">Notre Mission</h3>
+                <p class="section-details-explain">Fournir des solutions innovantes et durables qui améliorent la qualité de vie.
+                Renforcent les infrastructures et contribuent au développement économique de nos régions.</p>
+            </div>
+        </div>
+        <div class="vision-ctn-mid">
+            <div class="section-little-container vision-ctn-mid-exp">
+                <p class="ltlogo">🚀</p>
+                <h3 class="little-section-details">Innovation Continue</h3>
+                <p class="section-details-explain">Intégrer less dernières technologies est méthode pour offrir des solutions avant-gardistes.</p>
+                <ul class="section-details-explain vs-section-details-explain">
+                    <li>Technologies BIM et 3D</li>
+                    <li>Équipements médicaux connectés</li>
+                    <li>Matériaux écologiques</li>
+                    <li>Automatisation des processus</li>
+                </ul>
+            </div>
+            <div class="section-little-container vision-ctn-mid-exp">
+                <p class="ltlogo">🌍</p>
+                <h3 class="little-section-details">Développement Durable</h3>
+                <p class="section-details-explain">Construire un avenir resspectueux de l'environnement et solcialement responsable.</p>
+                <ul class="section-details-explain vs-section-details-explain">
+                    <li>Construction vertes</li>
+                    <li>Énergies rénouvelables</li>
+                    <li>Gestion des déchets</li>
+                    <li>Formation locale</li>
+                </ul>
+            </div>
+            <div class="section-little-container vision-ctn-mid-exp">
+                <p class="ltlogo">🤝</p>
+                <h3 class="little-section-details">Partenariats Stratégiquess</h3>
+                <p class="section-details-explain">Collaborer avec less meilleurs pour créer une synergies et maximiser l'impact.</p>
+                <ul class="section-details-explain vs-section-details-explain">
+                    <li>Universités et centres de récherche</li>
+                    <li>Fabricantes internationaux</li>
+                    <li>Institutions gouvernementales</li>
+                    <li>ONG et associations</li>
+                </ul>
+            </div>
+        </div>
+        <div class="vision-ctn-bot">
+            <div id="ob-head">
+                <h3 class="ob-section-details">Nos Objectifs 2030</h3>
+                <p class="ob-section-description">Une feuille de route ambitieuse pour transformer notre région</p>
+            </div>
+            <div id="ob-left">
+                <p class="ob-section-details">1000+</p>
+                <p class="ob-section-description">Projets BTP Durables</p>
+                <p class="ob-section-details">5000+</p>
+                <p class="ob-section-description">Emplois Crées</p>
+            </div>
+            <div id="ob-right">
+                <p class="ob-section-details">50+</p>
+                <p class="ob-section-description">Hôpitaux Équipés</p>
+                <p class="ob-section-details">100%</p>
+                <p class="ob-section-description">Énergie verte</p>
+            </div>
+        </div>
+        <div class="vision-ctn-top section-little-container">
+            <div class="vision-ctn-top-exp-left">
+                <h3 class="section-details">Impact Social et Économique</h3>
+                <div class="ise-exp-ctn">
+                    <p class="lltlogo">🏥</p>
+                    <div class="ise-exp-sub-ctn">
+                        <p class="ise-exp-sub-ctn-title">Amélioration des Soins de Santé</p>
+                        <p class="section-details-explain vs-section-details-explain">Équiper les établissements médicaux pour sauver plus de vies</p>
+                    </div>
+                </div>
+                <div class="ise-exp-ctn">
+                    <p class="lltlogo">🏠</p>
+                    <div class="ise-exp-sub-ctn">
+                        <p class="ise-exp-sub-ctn-title">Logements Durables</p>
+                        <p class="section-details-explain vs-section-details-explain">Construire des habitations écologiques et abordables</p>
+                    </div>
+                </div>
+                <div class="ise-exp-ctn">
+                    <p class="lltlogo">👥</p>
+                    <div class="ise-exp-sub-ctn">
+                        <p class="ise-exp-sub-ctn-title">Formation et Emploi</p>
+                        <p class="section-details-explain vs-section-details-explain">Développer les compétences locales et créer des oportunités</p>
+                    </div>
+                </div>
+                <div class="ise-exp-ctn">
+                    <p class="lltlogo">🌱</p>
+                    <div class="ise-exp-sub-ctn">
+                        <p class="ise-exp-sub-ctn-title">Préservation Environnementale</p>
+                        <p class="section-details-explain vs-section-details-explain">Protéger notre planète pour les générations futurs</p>
+                    </div>
+                </div>
+            </div>
+            <div class="vision-ctn-top-exp-right en-vision-ctn-top-exp-right">
+                <h3 class="little-section-details">Nos Engagements</h3>
+                <div class="eng-exp-ctn eng-exp-ctn-o">
+                    <p class="ise-exp-sub-ctn-title ise-exp-sub-ctn-title-o ">Transparence totale</p>
+                    <p class="section-details-explain vs-section-details-explain vs-section-details-explain-o">Communication ouverte sur tous nos prrojets et impacts</p>
+                </div>
+                <div class="eng-exp-ctn eng-exp-ctn-b">
+                    <p class="ise-exp-sub-ctn-title ise-exp-sub-ctn-title-b">Qualité sans compromis</p>
+                    <p class="section-details-explain vs-section-details-explain vs-section-details-explain-b">Standards internationauxdans toutes nos réalisations</p>
+                </div>
+                <div class="eng-exp-ctn eng-exp-ctn-g">
+                    <p class="ise-exp-sub-ctn-title ise-exp-sub-ctn-title-g">Responsabilité Sociale</p>
+                    <p class="section-details-explain vs-section-details-explain vs-section-details-explain-g">Contribution active au développement communautaire</p>
+                </div>
+                <div class="eng-exp-ctn eng-exp-ctn-p">
+                    <p class="ise-exp-sub-ctn-title ise-exp-sub-ctn-title-p">Innovtaion permanente</p>
+                    <p class="section-details-explain vs-section-details-explain vs-section-details-explain-p">Récherche continue de solutions révolutionnaires</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section : apropos -->
+    <section id="apropos">
+        <div id="ap-left" class="vision-ctn-top-exp-right">
+            <h2 id="apropos-title" class="section-title">À Propos de Rocher Ingénierie et Construction</h2>
+            <p class="section-description vs-section-description">Fondée en 2008, Rocher Ingénierie et Construction s'est imposée comme un acteur majeur dans les secteur du BTP et de l'équipemnt médical.
+            Notre approche unique combine expertise technique et service client d'exception.</p>
+            <p class="section-description vs-section-description">Nous croyons eb l'innovation, la qualité et la satisfaction client. Chaque projet est une opportunité de démontrer notre savoir faire et
+            notre engagement envers l'excellence</p>
+            <div class="ap-making-rate">
+                <div class="making-rate-items">
+                    <p class="making-rate-items-txt-o">15+</p>
+                    <p class="section-details-explain vs-section-details-explain">Projets Réalisés</p>
+                </div>
+                <div class="making-rate-items">
+                    <p class="making-rate-items-txt-o">500+</p>
+                    <p class="section-details-explain vs-section-details-explain">Années d'Expérience</p>
+                </div>
+                <div class="making-rate-items">
+                    <p class="making-rate-items-txt-o">98%</p>
+                    <p class="section-details-explain vs-section-details-explain">Clients Satisfaits</p>
+                </div>
+            </div>
+        </div>
+        <div id="ap-right" class="vision-ctn-top-exp-right">
+            <div class="ise-exp-ctn ap-ise-exp-ctn ">
+                <p class="lltlogo">🎯</p>
+                <div class="ise-exp-sub-ctn">
+                    <p class="ise-exp-sub-ctn-title">Excellence</p>
+                    <p class="section-details-explain vs-section-details-explain">Qualité irréprochable dns chaque réalisation</p>
+                </div>
+            </div>
+            <div class="ise-exp-ctn ap-ise-exp-ctn">
+                <p class="lltlogo">🤝</p>
+                <div class="ise-exp-sub-ctn">
+                    <p class="ise-exp-sub-ctn-title">Confiance</p>
+                    <p class="section-details-explain vs-section-details-explain">Rélations durables avec nos partenaires</p>
+                </div>
+            </div>
+            <div class="ise-exp-ctn ap-ise-exp-ctn">
+                <p class="lltlogo">⚡</p>
+                <div class="ise-exp-sub-ctn">
+                    <p class="ise-exp-sub-ctn-title">Innovation</p>
+                    <p class="section-details-explain vs-section-details-explain">Solutions modernes et technologiques avancées</p>
+                </div>
+            </div>
+            <div class="ise-exp-ctn ap-ise-exp-ctn">
+                <p class="lltlogo">🌱</p>
+                <div class="ise-exp-sub-ctn">
+                    <p class="ise-exp-sub-ctn-title">Durabilité</p>
+                    <p class="section-details-explain vs-section-details-explain">Respect de l'environnement et développement</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section : contac -->
+    <section id="contacts">
+        <div id="ctt-top">
+            <h2 class="section-title">Contactez-Nous</h2>
+            <p class="section-description">Prêt à démarrer votre projet? Notre équipe est là pour vous Accompagner</p>
+        </div>
+        <div id="ctt-left">
+            <div class="ise-exp-ctn ap-ise-exp-ctn ctt-exp-ctn-left">
+                <p class="lltlogo ctt-lltlogo">📍</p>
+                <div class="ise-exp-sub-ctn ctt-exp-sub-ctn">
+                    <p class="ise-exp-sub-ctn-title">Nos Adresses</p>
+                    <p class="app-exp-sub-ctn-title">Côte d'Ivoire :</p>
+                    <p class="section-details-explain vs-section-details-explain">Abidjan, Côte d'Ivoire</p>
+                    <p class="app-exp-sub-ctn-title">Togo :</p>
+                    <p class="section-details-explain vs-section-details-explain">Tomdè, Lomé, Togo</p>
+                </div>
+            </div>
+            <div class="ise-exp-ctn ap-ise-exp-ctn">
+                <p class="lltlogo ctt-lltlogo">📞</p>
+                <div class="ise-exp-sub-ctn ctt-exp-sub-ctn">
+                    <p class="ise-exp-sub-ctn-title">Télephone</p>
+                    <p><span class="app-exp-sub-ctn-title">Côte d'Ivoire :</span>
+                    <span class="section-details-explain vs-section-details-explain" type="tel">+225 07 87 59 95 22</span></p>
+                    <p><span class="app-exp-sub-ctn-title">Tomdè :</span>
+                    <span class="section-details-explain vs-section-details-explain" type="tel">+228 70 52 30 00</span></p>
+                </div>
+            </div>
+            <div class="ise-exp-ctn ap-ise-exp-ctn">
+                <p class="lltlogo ctt-lltlogo">✉<pre>   </pre></p>
+                <div class="ise-exp-sub-ctn ctt-exp-sub-ctn">
+                    <p class="ise-exp-sub-ctn-title">Nos Adresses</p>
+                    <p><span class="app-exp-sub-ctn-title">Côte d'Ivoire :</span>
+                    <span class="section-details-explain vs-section-details-explain" type="email">ric_civ@gmail.com</span></p>
+                    <p><span class="app-exp-sub-ctn-title">Tomdè :</span>
+                    <span class="section-details-explain vs-section-details-explain" type="emial">ric_tg@gmail.com</span></p>
+                </div>
+            </div>
+            <div class="ise-exp-ctn ap-ise-exp-ctn">
+                <p class="lltlogo ctt-lltlogo">🕒</p>
+                <div class="ise-exp-sub-ctn ctt-exp-sub-ctn">
+                    <p class="ise-exp-sub-ctn-title">Horaire</p>
+                    <p class="section-details-explain vs-section-details-explain">Lun-Ven : 08h00-18h00</p>
+                    <p class="section-details-explain vs-section-details-explain">Sam : 09h00-12h00</p>
+                </div>
+            </div>
+            <h3 class="ctt-section-details">Contact Rapide WhatsApp</h3>
+            <a class="ise-exp-ctn ap-ise-exp-ctn ctt-whats-btn" href="https://wa.me/+2250787599522">
+                <p class="llltlogo">📲</p>
+                <div class="ise-exp-sub-ctn ctt-exp-sub-ctn">
+                    <p class="ise-exp-sub-ctn-title">WhatsApp Côte d'Ivoire</p>
+                    <p class="section-details-explain vs-section-details-explain">+225 07 87 59 95 22</p>
+                </div>
+            </a>
+            <a class="ise-exp-ctn ap-ise-exp-ctn ctt-whats-btn" href="https://wa.me/+22870523000">
+                <p class="llltlogo">📲</p>
+                <div class="ise-exp-sub-ctn ctt-exp-sub-ctn">
+                    <p class="ise-exp-sub-ctn-title">WhatsApp Togo</p>
+                    <p class="section-details-explain vs-section-details-explain">+228 70 52 30 00</p>
+                </div>
+            </a>
+        </div>
+        <div id="ctt-right" class="vision-ctn-top-exp-right">
+            <h3  class="ctt-section-details">Demande de Devis</h3>
+            <form action="post" id="ctt-form" action="https://formsubmit.co/joriskouassi783@gmail.com">
+                <div class="ctt-form-field-double">
+                    <div class="ctt-form-sub-field">
+                        <p><label for="name-input" class="ctt-form-label">Nom</label></p>
+                        <p><input name="name-input" type="text" class="ctt-form-entry" required></p>
+                    </div>
+                    <div class="ctt-form-sub-field">
+                        <p><label for="surname-input" class="ctt-form-label">Prénom</label></p>
+                        <p><input name="surname-input" type="text" class="ctt-form-entry" required></p>
+                    </div>
+                </div>
+                <div class="ctt-form-field">
+                    <p><label for="email-input" class="ctt-form-label">Email</label></p>
+                    <p><input name="email-input" type="text" class="ctt-form-entry" required></p>
+                </div>
+                <div class="ctt-form-field">
+                    <p><label for="tel-input" class="ctt-form-label">Téléphone</label></p>
+                    <p><input name="tel-input" type="tel" class="ctt-form-entry" required></p>
+                </div>
+                <div class="ctt-form-field">
+                    <p><label for="tel-input" class="ctt-form-label">Secteur d'activité</label></p>
+                    <p><select class="ctt-form-entry ctt-form-entry-sel" form="ctt-form">
+                        <option value="btp">BTP - Construction</option>
+                        <option value="med">Équipement Médical</option>
+                    </select></p>
+                </div>
+                <div class="ctt-form-field">
+                    <p><label for="tel-input" class="ctt-form-label">Message</label></p>
+                    <p><textarea class="ctt-form-entry ctt-form-entry-area" name="message" minlength="10" wrap="hard"></textarea></p>
+                </div>
+                <div class="ctt-form-submit">
+                    <button type="submit" id="submit-email"  value="e-mail">✉ Envoyer par Email</button>
+                    <p class="ctt-form-label">ou</p>
+                    <button type="submit" id="submit-what"  value="e-what">📲 Envoyer par WhatsApp</button>
+                </div>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
